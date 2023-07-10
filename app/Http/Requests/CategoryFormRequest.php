@@ -37,7 +37,7 @@ class CategoryFormRequest extends FormRequest
          ],
          'image' => [
             'required',
-            'mimes:jpeg, png, jpg'
+           
          ],
          'meta_title' => [
             'required',
@@ -48,7 +48,7 @@ class CategoryFormRequest extends FormRequest
             'required',
             'string'
          ],
-         'meta_keywoard' => [
+         'meta_keyword' => [
             'required',
             'string'
          ],
